@@ -1,6 +1,12 @@
 # COWSAY {
 
-Vamos a crear un programa que genere nombres al hazar dentro de la terminal. La novedad es que vamos a introducir otro lector de paquetes llamado yarn y un super set de JS llamado typescript.
+![TS](https://img.shields.io/badge/-Typescript-orange)
+
+<p align="center">
+  <img src="./img/img1.png" style="width: 100%">
+</p>
+
+Vamos a crear un programa que genere nombres al hazar dentro de la terminal. La novedad es que vamos a introducir otro gestor de paquetes llamado yarn y un super set de JS llamado typescript.
 
 ```bash
 yarn init
@@ -48,7 +54,7 @@ El comando `tsc` o `TypeScript Compiler` compila ficheros typescript, que normal
 
 Mucha gente llama al tipo de compiladores que compilan de un codigo fuente en origen (typescript) a un código de destino (javascript) en lugar de a un archivo binario (como puede ser el caso del compilador del lenguage C++) **transpiladores**, no obstante como ya sabes, en desarrollo de sofware hay muchas terminologias muy similares.
 
-## Confifuración del compilador `tsconfig.json`
+## Configuración del compilador `tsconfig.json`
 
 Para compilar un fichero typescript, antes debemos crear una configuración para el compilador. Esta se guarda en un fichero llamado `tsconfig.json`. Ahi se establecen las reglas de compilación, en que estándar JS queremos el resultado de la compilación, que validaciones tiene que realizar el complador, etc.
 
@@ -162,7 +168,7 @@ getCatsFacts();
 
 ## Programación defensiva
 
-Ahora que somos capaces de hacer una petición a programas externos, vamos a asegurar nuestras funciones con `programación defensiva`. La programación defensiva soni el conjunto de prácticas, herramientas y conocimientos que nos ayudan a generar un código más seguro y diferencia un buen programa de otro que no lo es.
+Ahora que somos capaces de hacer una petición a programas externos, vamos a asegurar nuestras funciones con `programación defensiva`. La programación defensiva son el conjunto de prácticas, herramientas y conocimientos que nos ayudan a generar un código más seguro y diferencia un buen programa de otro que no lo es.
 
 > `try...catch`: estos estamentos diferencias nuestro código en 2 bloques. Primero se ejecuta el bloque try y, si se produce alguna excepción, se ejecutará el código en catch. De esta manera nuestro código no quedará bloqueado ya que le ofrecemos una salida y puede continuar.
 
